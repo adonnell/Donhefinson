@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Drinks>
+  <Drink name="Long Island Iced Tea">
+    <ingredient name="Vodka">
+      <ml>35</ml>
+    </ingredient>
+    <ingredient name="Tequila">
+      <ml>35</ml>
+    </ingredient>
+    <ingredient name="White Rum">
+      <ml>35</ml>
+    </ingredient>
+    <ingredient name="Gin">
+      <ml>35</ml>
+    </ingredient>
+    <ingredient name="Triple Sec">
+      <ml>35</ml>
+    </ingredient>
+    <ingredient name="Sweet and Sour">
+      <ml>53</ml>
+    </ingredient>
+    <ingredient name="Coke">
+      <ml>35</ml>
+    </ingredient>
+  </Drink>
+  <Drink name="Adios Motherfucker">
+    <ingredient name="Vodka">
+      <ml>18</ml>
+    </ingredient>
+    <ingredient name="Tequila">
+      <ml>18</ml>
+    </ingredient>
+    <ingredient name="White Rum">
+      <ml>18</ml>
+    </ingredient>
+    <ingredient name="Gin">
+      <ml>18</ml>
+    </ingredient>
+    <ingredient name="Blue Curacao">
+      <ml>18</ml>
+    </ingredient>
+    <ingredient name="Sweet and Sour">
+      <ml>70</ml>
+    </ingredient>
+    <ingredient name="Sprite">
+      <ml>70</ml>
+    </ingredient>
+  </Drink>
+  <Drink name="Malibu Bay Breeze">
+    <ingredient name="Coconut Rum">
+      <ml>53</ml>
+    </ingredient>
+    <ingredient name="Cranberry Juice">
+      <ml>70</ml>
+    </ingredient>
+    <ingredient name="Pineapple Juice">
+      <ml>70</ml>
+    </ingredient>
+  </Drink>
+</Drinks>
