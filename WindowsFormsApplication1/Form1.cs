@@ -41,6 +41,7 @@ namespace WindowsFormsApplication1
                 // disable buttons so multiple drink requests can't be sent
                 disableButtons();
                 // push any button, that buttons text becomes the string to search for
+                // need to change this
                 String toMake;
                 if (sender == LongIsland)
                     toMake = "Long Island Iced Tea";
