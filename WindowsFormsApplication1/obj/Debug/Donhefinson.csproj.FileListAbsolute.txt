@@ -1,0 +1,10 @@
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\bin\Debug\Resources\Drinks.xml
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\obj\Debug\Donhefinson.csprojResolveAssemblyReference.cache
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.drinkMenu.resources
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\obj\Debug\Donhefinson.csproj.GenerateResource.Cache
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\adizzle\Documents\GitHub\Donhefinson\Donhefinson\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

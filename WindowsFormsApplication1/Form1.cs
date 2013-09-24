@@ -11,12 +11,12 @@ using System.Xml.Linq;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class drinkMenu : Form
     {
         private String[] Liquors = {"Vodka", "White Rum", "Gin", "Blue Curacao", "Mixers", "Tequila", "Coconut Rum", "Triple Sec", "Amaretto"};
         private XDocument doc;
 
-        public Form1()
+        public drinkMenu()
         {
             InitializeComponent();
             doc = XDocument.Load("Resources/Drinks.xml");
