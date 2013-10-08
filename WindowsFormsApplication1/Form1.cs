@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1
 {
     public partial class drinkMenu : Form
     {
-        private String[] Liquors = {"Vodka", "White Rum", "Gin", "Blue Curacao", "Mixers", "Tequila", "Coconut Rum", "Triple Sec", "Amaretto"};
+        private string[] Liquors = {"Vodka", "White Rum", "Gin", "Blue Curacao", "Mixers", "Tequila", "Coconut Rum", "Triple Sec", "Amaretto"};
         private XDocument doc;
 
         public drinkMenu()
