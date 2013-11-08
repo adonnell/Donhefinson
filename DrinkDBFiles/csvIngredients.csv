@@ -1,0 +1,498 @@
+IngredientID,IngredientName,Proof
+1730,Firewater,100
+1731,Lemonade,
+1732,Cognac,80
+1733,Licorice root,
+1734,Coconut milk,
+1735,Mango syrup,
+1736,Fresca,
+1737,Cornstarch,
+1738,Grapefruit,
+1739,Creme de banane,
+1740,Sausage,
+1741,Blavod vodka,80
+1742,Amarula Cream,34
+1743,Peach nectar,
+1744,Green Creme de Menthe,50
+1745,V8 juice,
+1746,Mezcal,
+1747,Charleston Follies,40
+1748,Strawberry juice,
+1749,Nutmeg,
+1750,Whiskey,80
+1751,7-Up,
+1752,Purple endive,
+1753,Tropicana,
+1754,Gold rum,
+1755,Fluid extract of coca,
+1756,Blackcurrant cordial,
+1757,Dubonnet,38
+1758,Tonic water,
+1759,Mint,
+1760,Alcohol,
+1761,Kool-Aid,
+1762,Lillet,
+1763,Maui,30
+1764,Sherbet,
+1765,Malibu rum,48
+1766,Egg,
+1767,Thunderbird,36
+1768,Parfait d'amour,
+1769,Pucker,
+1770,Light cream,
+1771,Irish whiskey,80
+1772,Rhubarb,
+1773,Guava syrup,
+1774,Lime liqueur,
+1775,Green Curacao,60
+1776,Bonded stock,
+1777,Plums,
+1778,Wild Spirit liqueur,90
+1779,Apricot,
+1780,Salt,
+1781,Cherries,
+1782,Seagram 7,80
+1783,Chambord raspberry liqueur,33
+1784,Cream of coconut,
+1785,Blended whiskey,80
+1786,Cocoa powder,
+1787,Lime,
+1788,Fanta,
+1789,Pepper,
+1790,Vanilla liqueur,
+1791,Yukon Jack,100
+1792,Fruit cocktail,
+1793,Lemons,
+1794,Guava juice,
+1795,Cachaca,86
+1796,Ricard,90
+1797,Green Chartreuse,110
+1798,Swiss Mocha Cream liqueur,
+1799,Snapple,
+1800,Everclear,190
+1801,Horseradish,
+1802,Banana,
+1803,Apfelkorn,40
+1804,Creme de fraise,
+1805,George Dickel,90
+1806,Molasses,
+1807,Absolut Mandrin,80
+1808,Egg yolk,
+1809,Marshmallows,
+1810,Mad Dog,15
+1811,Grenadine,
+1812,Ginger ale,
+1813,Peychaud bitters,
+1814,151 proof rum,151
+1815,Grape soda,
+1816,Angelica root,
+1817,Dry Vermouth,36
+1818,Egg white,
+1819,Jalapeno,
+1820,Strawberry syrup,
+1821,Peach brandy,
+1822,Yeast,
+1823,Lager,
+1824,Soy sauce,
+1825,Cherry,
+1826,RedRum,70
+1827,Prune juice,
+1828,Melon vodka,80
+1829,Kiwi,
+1830,Corn syrup,
+1831,Marjoram leaves,
+1832,Clove,
+1833,Orange-flower water,
+1834,Sherry,
+1835,Bitters,
+1836,Soy milk,
+1837,Jägermeister,70
+1838,Cola,
+1839,Mint syrup,
+1840,Advocaat,30
+1841,Bitter lemon,
+1842,Mandarin,
+1843,Butterscotch schnapps,29
+1844,Goldschlager,87
+1845,Cherry Heering,43
+1846,Wildberry schnapps,
+1847,Shochu,40
+1848,Absolut Vodka,80
+1849,Cucumber,
+1850,Kirschwasser,90
+1851,Jack Daniels,90
+1852,Kiwi liqueur,
+1853,Anisette,
+1854,Schnapps,
+1855,Half-and-half,
+1856,Mango juice,
+1857,Berries,
+1858,Cloves,
+1859,Club soda,
+1860,Tabasco sauce,
+1861,Cinnamon schnapps,80
+1862,Aquavit,80
+1863,Jello,
+1864,Stout,
+1865,Blackberry schnapps,
+1866,Grapefruit-lemon soda,
+1867,Brown sugar,
+1868,Tuaca,70
+1869,Cranberry liqueur,
+1870,Becherovka,76
+1871,White rum,
+1872,Carrot,
+1873,Hot red peper flakes,
+1874,Rumple Minze,100
+1875,Midori melon liqueur,42
+1876,Irish Mist,
+1877,Cantaloupe,
+1878,Pisco,90
+1879,Pimm's No. 1,50
+1880,Pumpkin,
+1881,Glycerine,
+1882,Watermelon liqueur,
+1883,Cardamom,
+1884,Heavy cream,
+1885,Ginger beer,
+1886,Passoa,40
+1887,Vanilla syrup,
+1888,Tennessee whiskey,
+1889,Grape schnapps,
+1890,Iced tea,
+1891,Raspberry jam,
+1892,Yoghurt,
+1893,Caramel,
+1894,Strawberry schnapps,48
+1895,Orange Curacao,60
+1896,Frangelico,48
+1897,Black pepper,
+1898,Lime vodka,80
+1899,Anis,90
+1900,Bread,
+1901,Cough syrup,
+1902,Canadian whisky,80
+1903,Blackberry brandy,
+1904,Coca-Cola,
+1905,Maraschino liqueur,64
+1906,Vanilla,
+1907,Pink lemonade,
+1908,Cherry brandy,
+1909,Candy,
+1910,Wine,
+1911,Crown Royal,80
+1912,Caramel coloring,
+1913,Mango,
+1914,Forbidden Fruit,
+1915,Lime juice,
+1916,Apricot liqueur,
+1917,Celery salt,
+1918,Chili sauce,
+1919,Cumin seed,
+1920,Wormwood,
+1921,Brandy,80
+1922,Celery,
+1923,Peach Vodka,80
+1924,Pineapple soda,
+1925,White port,
+1926,Raspberries,
+1927,Aftershock,80
+1928,Mountain Dew,
+1929,Rose's Lime Juice,
+1930,Genever,76
+1931,Gold tequila,80
+1932,Rock and rye,
+1933,Espresso,
+1934,White Creme de Menthe,50
+1935,Eggnog,
+1936,Yellow Chartreuse,86
+1937,Rye malt,
+1938,Kumquat,
+1939,Lakka,42
+1940,Sweet and sour,
+1941,Absolut Peppar,80
+1942,Triple sec,46
+1943,Light rum,
+1944,Tia maria,53
+1945,Chocolate,
+1946,Hazelnut liqueur,
+1947,Amer Picon,
+1948,Carbonated water,
+1949,Pineapple-coconut juice,
+1950,Raspberry schnapps,
+1951,Sunny delight,
+1952,Licor 43,62
+1953,Godiva liqueur,34
+1954,Peach,
+1955,Bacardi Limon,80
+1956,Banana liqueur,48
+1957,Pineapple vodka,80
+1958,Lemon schnapps,
+1959,Limeade,
+1960,Apricot brandy,46
+1961,Wild Turkey,101
+1962,Sarsaparilla,
+1963,Acerola,
+1964,Lingonberry jam,
+1965,Powdered sugar,
+1966,Raspberry liqueur,
+1967,Alizé,32
+1968,Pear liqueur,
+1969,Coffee liqueur,53
+1970,Asafoetida,
+1971,Fennel seeds,
+1972,Blueberry schnapps,
+1973,Fruit syrup,
+1974,Absinthe,136
+1975,Sirup of roses,
+1976,Cherry liqueur,50
+1977,Aperol,22
+1978,Bourbon,
+1979,Tea,
+1980,Watermelon schnapps,
+1981,Whisky,80
+1982,Grappa,
+1983,Pear brandy,
+1984,St. Hallvard,80
+1985,Vanilla schnapps,
+1986,Tropical fruit schnapps,
+1987,Worcestershire sauce,
+1988,Milk,
+1989,Whipping cream,
+1990,Pineapple juice,
+1991,Apricot nectar,
+1992,Johnnie Walker,80
+1993,Peanut liqueur,
+1994,Kahlua,53
+1995,Sour mix,
+1996,Black Sambuca,50
+1997,Banana syrup,
+1998,Strawberry liqueur,
+1999,Bailey's irish cream,34
+2000,Key Largo schnapps,30
+2001,Razzmatazz,33
+2002,Lime peel,
+2003,Melon liqueur,46
+2004,Cherry vodka,80
+2005,Root beer schnapps,
+2006,Batida de Coco,
+2007,Ice-cream,
+2008,Watermelon,
+2009,Fernet Branca,80
+2010,Citric acid,
+2011,Peach juice,
+2012,Apple,
+2013,Maple syrup,
+2014,Avocado,
+2015,Purple passion,
+2016,Chocolate syrup,
+2017,Swedish Punsch,
+2018,Coconut,
+2019,Schweppes russian,
+2020,Cherry juice,
+2021,Raspberry syrup,
+2022,Lemon liqueur,
+2023,Snowball,
+2024,Champagne,
+2025,Sake,
+2026,Blue Curacao,60
+2027,Gummi fish,
+2028,Vinegar,
+2029,Lilikoi syrup,
+2030,Red wine,
+2031,Maraschino cherry,
+2032,White wine,
+2033,Rum,
+2034,Nuts,
+2035,Ginger,
+2036,Pear soft drink,
+2037,Almond syrup,
+2038,Peach schnapps,48
+2039,Hot chocolate,
+2040,Pepper sauce,
+2041,Absolut Citron,80
+2042,Food coloring,
+2043,Cream soda,
+2044,Grand Marnier,79
+2045,Vodka,80
+2046,Jose Cuervo,76
+2047,Chocolate mint liqueur,
+2048,Black rum,
+2049,Caffeine citrate,
+2050,Clamato juice,
+2051,Peachtree schnapps,40
+2052,Sprite,
+2053,Apple cider,
+2054,Caramel liqueur,
+2055,Orange,
+2056,Campari,41
+2057,Daiquiri mix,
+2058,Olive juice,
+2059,Port,
+2060,Surge,
+2061,Pernod,80
+2062,Creme de cacao,50
+2063,Cherry syrup,
+2064,Spiced rum,
+2065,Allspice,
+2066,Coffeemate,
+2067,Mello Yello,
+2068,Zima,9
+2069,Barenjager,70
+2070,Hoopers Hooch,9
+2071,Southern Comfort,
+2072,Madeira,40
+2073,Dr. Pepper,
+2074,Lemon gin,80
+2075,Fruit juice,
+2076,Strawberries,
+2077,Olive,
+2078,Anejo rum,
+2079,Grapes,
+2080,Benedictine,80
+2081,Water,
+2082,Orange liqueur,
+2083,Metaxa,76
+2084,Passion fruit juice,
+2085,Limoncello,64
+2086,Sugar syrup,
+2087,Ouzo,80
+2088,Cointreau,80
+2089,Kummel,
+2090,Chocolate liqueur,
+2091,Piña Colada,
+2092,Gatorade,
+2093,Cherry Cola,
+2094,Absolut Kurant,80
+2095,Angostura bitters,88
+2096,Schweppes,
+2097,Sloe gin,57
+2098,Cottage cheese,
+2099,Beef bouillon,
+2100,Erin Cream,
+2101,Cranberry juice,
+2102,Pina colada mix,
+2103,Rosewater,
+2104,Amaretto,56
+2105,Gin,80
+2106,Chocolate milk,
+2107,Scotch,80
+2108,Tomato juice,
+2109,Squirt,
+2110,Drambuie,80
+2111,Pistachio liqueur,
+2112,Sweet Vermouth,30
+2113,Anise,
+2114,Safari,40
+2115,West Coast Cooler,7
+2116,Dark rum,
+2117,Lemon-lime soda,
+2118,Coriander,
+2119,Papaya,
+2120,Vanilla vodka,80
+2121,Beer,
+2122,Papaya juice,
+2123,Lemon peel,
+2124,Orange peel,
+2125,Orange soda,
+2126,Coconut cream,
+2127,Honey,
+2128,Margarita mix,
+2129,Mandarine Napoleon,76
+2130,Strega,
+2131,Figs,
+2132,Peach liqueur,
+2133,Grapefruit juice,
+2134,Tequila Rose,34
+2135,Raspberry juice,
+2136,Lemon vodka,80
+2137,Vermouth,30
+2138,Cinnamon,
+2139,Blackcurrant squash,
+2140,Steak sauce,
+2141,Creme de noyaux,
+2142,Raisins,
+2143,Saurer apfel,32
+2144,Apple-cranberry juice,
+2145,Grape juice,
+2146,Coconut liqueur,
+2147,Collins mix,
+2148,Coconut syrup,
+2149,Cider,
+2150,Cinzano Orancio,29
+2151,Cream,
+2152,Applejack,80
+2153,Lemon juice,
+2154,Pisang Ambon,42
+2155,Crystal light,
+2156,Ice,
+2157,Ale,
+2158,Pear syrup,
+2159,Butter,
+2160,Coffee brandy,
+2161,Whipped cream,
+2162,Orange bitters,80
+2163,Lemon,
+2164,Orange vodka,80
+2165,Curacao,60
+2166,Tang,
+2167,Mint schnapps,
+2168,Root beer,
+2169,Orange spiral,
+2170,Fruit punch,
+2171,Guinness stout,8
+2172,Soda water,
+2173,Hot Damn,80
+2174,Orange juice,
+2175,Condensed milk,
+2176,Cocktail onion,
+2177,Apple brandy,90
+2178,Apple schnapps,
+2179,Rye whiskey,80
+2180,Tawny port,
+2181,Lemon soda,
+2182,Gelatin,
+2183,Passion fruit syrup,
+2184,Bloody mary mix,
+2185,Pear,
+2186,Cactus Juice liqueur,30
+2187,Cappuccino,
+2188,Lemon-lime mix,
+2189,Amorillo,
+2190,Apple juice,
+2191,Tequila,80
+2192,Cranberry vodka,80
+2193,Peppermint schnapps,
+2194,White chocolate liqueur,
+2195,Fruit,
+2196,Schweppes Lemon,
+2197,Coconut rum,
+2198,Creme de almond,
+2199,Cranberries,
+2200,Jim Beam,80
+2201,Raspberry cordial,
+2202,Creme de cassis,50
+2203,Almond,
+2204,Sambuca,50
+2205,Pepsi Cola,
+2206,Sugar,
+2207,Orgeat syrup,
+2208,Galliano,70
+2209,Irish cream,34
+2210,Carbonated soft drink,
+2211,Coffee,
+2212,Pineapple,
+2213,Red Bull,
+2214,Battery,
+2215,Rum cream liqueur,
+2216,Dark Creme de cacao,50
+2217,Raspberry vodka,80
+2218,Strawberry vodka,80
+2219,Citrus vodka,80
+2220,Almond flavoring,
+2221,Corona,9
+2222,Taboo,29
+2223,Jolt Cola,
+2224,Banana rum,54
+2225,Hpnotiq,34
+2226,Unknown: Drink Import Failure,
