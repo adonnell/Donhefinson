@@ -52,7 +52,7 @@ namespace Donhefinson
             this.FindBy.Location = new System.Drawing.Point(1, -3);
             this.FindBy.Name = "FindBy";
             this.FindBy.SelectedIndex = 0;
-            this.FindBy.Size = new System.Drawing.Size(485, 466);
+            this.FindBy.Size = new System.Drawing.Size(486, 468);
             this.FindBy.TabIndex = 3;
             // 
             // ByName
@@ -63,7 +63,7 @@ namespace Donhefinson
             this.ByName.Location = new System.Drawing.Point(4, 35);
             this.ByName.Name = "ByName";
             this.ByName.Padding = new System.Windows.Forms.Padding(3);
-            this.ByName.Size = new System.Drawing.Size(477, 427);
+            this.ByName.Size = new System.Drawing.Size(478, 429);
             this.ByName.TabIndex = 0;
             this.ByName.Text = "Find By Name";
             this.ByName.UseVisualStyleBackColor = true;
@@ -72,10 +72,12 @@ namespace Donhefinson
             // 
             this.Results.FormattingEnabled = true;
             this.Results.ItemHeight = 26;
-            this.Results.Location = new System.Drawing.Point(10, 47);
+            this.Results.Location = new System.Drawing.Point(0, 45);
             this.Results.Name = "Results";
-            this.Results.Size = new System.Drawing.Size(457, 368);
+            this.Results.Size = new System.Drawing.Size(467, 368);
             this.Results.TabIndex = 2;
+            this.Results.SelectedIndexChanged += new System.EventHandler(this.Results_SelectedIndexChanged);
+            this.Results.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.results_MouseDoubleClick);
             // 
             // search
             // 
@@ -112,7 +114,7 @@ namespace Donhefinson
             this.Favorites.Location = new System.Drawing.Point(4, 35);
             this.Favorites.Name = "Favorites";
             this.Favorites.Padding = new System.Windows.Forms.Padding(3);
-            this.Favorites.Size = new System.Drawing.Size(460, 388);
+            this.Favorites.Size = new System.Drawing.Size(477, 427);
             this.Favorites.TabIndex = 2;
             this.Favorites.Text = "Favorites";
             this.Favorites.UseVisualStyleBackColor = true;
@@ -121,10 +123,11 @@ namespace Donhefinson
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 461);
+            this.ClientSize = new System.Drawing.Size(484, 486);
             this.Controls.Add(this.FindBy);
             this.MaximumSize = this.ClientSize;
             this.MinimumSize = this.ClientSize;
+            this.Name = "DrinkMenu";
             this.FindBy.ResumeLayout(false);
             this.ByName.ResumeLayout(false);
             this.ByName.PerformLayout();

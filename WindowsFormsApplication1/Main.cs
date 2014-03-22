@@ -17,7 +17,6 @@ namespace Donhefinson
         {
             Global.drinkList = new List<Drink>();
             InitializeComponent();
-            loadDrinks();
         }
 
         // load all of the drinks into memory at the start of the program
@@ -38,8 +37,7 @@ namespace Donhefinson
             }
             
             // go through and make a drink object out of every returned record
-            bool canRead = reader.Read();
-            while (canRead)
+            while ( reader.Read() )
             {
                 double totalAmt = 0;
                 double alcAmt = 0;
@@ -63,8 +61,7 @@ namespace Donhefinson
                 d.drinkIng.Add(i);
 
                 // get the rest of the ingredients until a new drink is found
-                canRead = reader.Read();
-                while (canRead)
+                while ( reader.Read() )
                 {
                     int drinkid = reader.GetInt32("Drink_ID");
 
@@ -81,7 +78,6 @@ namespace Donhefinson
 
                         d.drinkIng.Add(i);
 
-                        canRead = reader.Read();
                     }
                     else break;
                 }
@@ -106,20 +102,22 @@ namespace Donhefinson
         private void openSerial_Click(object sender, EventArgs e)
         {
             Global.arduinoConn.Close();
-            Global.arduinoConn.PortName = "COM4";
+            Global.arduinoConn.PortName = "COM3";
             Global.arduinoConn.BaudRate = 9600;
             Global.arduinoConn.DataBits = 8;
             Global.arduinoConn.Parity = System.IO.Ports.Parity.None;
             Global.arduinoConn.Handshake = System.IO.Ports.Handshake.None;
             Global.arduinoConn.Encoding = System.Text.Encoding.Default;
-            //Global.arduinoConn.Open();
+            Global.arduinoConn.Open();
             this.DrinkMenu.Show();
             this.openSerial.Hide();
             this.Controls.Remove(this.openSerial);
+            this.Admin.Show();
         }
 
         private void DrinkMenu_Click(object sender, EventArgs e)
         {
+            loadDrinks();
             findRecipesFromBar();
             System.Windows.Forms.Form drinks = new DrinkMenu();
             drinks.Show();
@@ -160,6 +158,14 @@ namespace Donhefinson
                 }
             }
             Global.drinkList = drinkMenu;
+        }
+
+        private void Admin_Click(object sender, EventArgs e)
+        {
+            Global.arduinoConn.Write(new byte[] { Global.ADMIN_CONTROL }, 0, 1);
+            System.Windows.Forms.Form admin = new Admin_control();
+            admin.Show();
+            this.Hide();
         }
     }
 }

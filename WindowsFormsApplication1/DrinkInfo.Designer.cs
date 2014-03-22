@@ -35,10 +35,10 @@
             // MakeDrink
             // 
             this.MakeDrink.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
-            this.MakeDrink.Location = new System.Drawing.Point(125, 363);
+            this.MakeDrink.Location = new System.Drawing.Point(124, 429);
             this.MakeDrink.Name = "MakeDrink";
             this.MakeDrink.Size = new System.Drawing.Size(234, 67);
-            this.MakeDrink.TabIndex = 0;
+            this.MakeDrink.TabIndex = 2;
             this.MakeDrink.Text = "Make Drink";
             this.MakeDrink.UseVisualStyleBackColor = true;
             this.MakeDrink.Click += new System.EventHandler(this.MakeDrink_Click);
@@ -46,23 +46,27 @@
             // statusText
             // 
             this.statusText.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
-            this.statusText.Location = new System.Drawing.Point(124, 330);
+            this.statusText.Location = new System.Drawing.Point(124, 391);
             this.statusText.Name = "statusText";
             this.statusText.ReadOnly = true;
             this.statusText.Size = new System.Drawing.Size(234, 32);
             this.statusText.TabIndex = 1;
             this.statusText.Visible = false;
-            
             // 
             // DrinkInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 461);
+            this.ClientSize = new System.Drawing.Size(479, 515);
+            this.ControlBox = false;
             this.Controls.Add(this.statusText);
             this.Controls.Add(this.MakeDrink);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "DrinkInfo";
             this.Text = "DrinkInfo";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

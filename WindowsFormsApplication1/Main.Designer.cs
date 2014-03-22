@@ -28,11 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.openSerial = new System.Windows.Forms.Button();
             this.Admin = new System.Windows.Forms.Button();
             this.DrinkMenu = new System.Windows.Forms.Button();
-            Global.arduinoConn = new System.IO.Ports.SerialPort(this.components);
             this.SuspendLayout();
             // 
             // openSerial
@@ -56,6 +54,8 @@
             this.Admin.TabIndex = 1;
             this.Admin.Text = "Admin";
             this.Admin.UseVisualStyleBackColor = true;
+            this.Admin.Click += new System.EventHandler(this.Admin_Click);
+            this.Admin.Hide();
             // 
             // DrinkMenu
             // 
@@ -73,17 +73,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(Global.width, Global.height);
-            this.MinimumSize = this.ClientSize;
-            this.MaximumSize = this.ClientSize;
-
+            this.ClientSize = new System.Drawing.Size(500, 500);
             this.Controls.Add(this.openSerial);
             this.Controls.Add(this.DrinkMenu);
             this.Controls.Add(this.Admin);
+            this.MaximumSize = this.ClientSize;
+            this.MinimumSize = this.ClientSize;
             this.Name = "Main";
             this.Text = "DonHefinSon";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

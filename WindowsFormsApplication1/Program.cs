@@ -9,16 +9,21 @@ using System.Collections;
 
 namespace Donhefinson
 {
-    static class Global
+    public static class Global
     {
-        public static MySqlConnection conn = new MySqlConnection("Server=sql3.freemysqlhosting.net;Database=sql321723;Uid=sql321723;Pwd=wH7*vX9!;");
-        public static System.IO.Ports.SerialPort arduinoConn { get; set; }
-        public static XDocument drinkDoc = XDocument.Load("Resources/Drinks.xml");
+        public static System.IO.Ports.SerialPort arduinoConn = new System.IO.Ports.SerialPort();
+        public static MySqlConnection conn = new MySqlConnection("Server=Donhefenson.db.11757223.hostedresource.com;Database=Donhefenson;Uid=TheDonhefenson;Pwd=Power121!;");
         public static string[] Liquors = { "Vodka", "White Rum", "Gin", "Blue Curacao", "Mixers", "Tequila", "Coconut Rum", "Triple Sec", "Amaretto" };
         public static string[] Mixers = { "Sweet and Sour", "Sprite", "Ice", "Orange Juice", "Coke", "Pineapple Juice", "Cranberry Juice" };
         public static List<Drink> drinkList;
         public static int height = 500;
         public static int width = 500;
+        public static byte ERROR = 9;
+        public static byte FINISH = 10;
+        public static byte MAKE_DRINK = 16;
+        public static byte ADMIN_CONTROL = 32;
+        public static byte READY = 2;
+        public static byte AT_TARGET = 1; 
     }
 
     public class Drink : IComparable

@@ -57,5 +57,22 @@ namespace Donhefinson
             }
             Results.EndUpdate();
         }
+
+        void results_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            int index = this.Results.IndexFromPoint(e.Location);
+            if (index != System.Windows.Forms.ListBox.NoMatches)
+            {
+                Results.SetSelected(index, true);
+                Drink d = (Drink)Results.SelectedItem;
+                DrinkInfo dialog = new DrinkInfo(d);
+                dialog.ShowDialog();
+            }
+        }
+
+        private void Results_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
